@@ -13,19 +13,19 @@ This project provides a comprehensive analysis of global earthquake patterns, se
 ## 📸 Dashboard Preview
 
 ### 1. Global Overview
-![Global Overview](global_overview.png.png)
+![Global Overview](global_overview.png)
 
 ### 2. Temporal & Trend Analysis
-![Time Analysis](time_analysis.png.png)
+![Time Analysis](time_analysis.png)
 
 ### 3. Magnitude & Depth Analysis
-![Magnitude & Depth](magnitude_depth.png.png)
+![Magnitude & Depth](magnitude_depth.png)
 
 ### 4. Regional Analysis
-![Regional Analysis](regional_analysis.png.png)
+![Regional Analysis](regional_analysis.png)
 
 ### 5. Risk Assessment & Alerts
-![Risk & Alerts](risk_alerts.png.png)
+![Risk & Alerts](risk_alerts.png)
 
 ---
 
