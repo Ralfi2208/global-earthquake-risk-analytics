@@ -1,6 +1,6 @@
 # 🌍 Global Earthquake Risk & Seismic Analytics Dashboard
 
-An end-to-end Interactive **Power BI Dashboard** for global seismic activity analysis, magnitude trends, depth distribution, and automated risk scoring based on USGS earthquake data.
+An end-to-end Interactive **Power BI Dashboard** for global seismic activity analysis, magnitude trends, depth distribution, and automated risk scoring based on live USGS earthquake data.
 
 ---
 
@@ -31,8 +31,9 @@ This project provides a comprehensive analysis of global earthquake patterns, se
 
 ## 🛠️ Data Architecture & Tech Stack
 
+* **Live Data Source:** Direct GeoJSON Web API feed from USGS (`https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson`)
 * **Business Intelligence Tool:** Microsoft Power BI Desktop
-* **Data Transformation:** Power Query (GeoJSON/CSV parsing, data cleaning, and conditional column creation)
+* **Data Transformation:** Power Query (GeoJSON API parsing, record expansion, data type conversions, DateTime adjustments, and custom column creation)
 * **Data Modeling:** Star Schema design with dedicated `Calendar` and `Measure` tables.
 * **DAX Formulas:** Custom measures for dynamic time intelligence, standard deviation calculations, and conditional risk alerts.
 
