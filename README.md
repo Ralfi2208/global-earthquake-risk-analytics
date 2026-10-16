@@ -10,27 +10,22 @@ This project provides a comprehensive analysis of global earthquake patterns, se
 
 ---
 
-## 📸 Dashboard Overview & Key Features
+## 📸 Dashboard Preview
 
-### 1. **Global Overview**
-* **KPI Metrics:** Track Average Depth, Average Magnitude, Magnitude Standard Deviation, Max Magnitude, and Total Earthquakes.
-* **Geographic Mapping:** Interactive global map showing epicenters categorized by severity (*Micro, Minor, Light, Moderate, Strong, Major*).
-* **Magnitude Distribution:** Bar chart breaking down total seismic events by magnitude category.
+### 1. Global Overview
+![Global Overview](global_overview.png.png)
 
-### 2. **Temporal & Trend Analysis**
-* **Daily Trends & Volatility:** Line charts showing total earthquakes by date/hour and daily percentage variance.
-* **Peak Activity Heatmaps:** Day-of-week and hourly analysis to identify peak seismic occurrence windows.
+### 2. Temporal & Trend Analysis
+![Time Analysis](time_analysis.png.png)
 
-### 3. **Magnitude & Depth Analysis**
-* **Scatter & Depth Correlation:** Analysis of seismic depth vs. magnitude to classify *Shallow, Intermediate,* and *Deep* activity.
-* **Regional Breakdown:** Detailed tabular matrix of average depth and maximum magnitude by region.
-* **Custom Report Tooltips:** Hover-activated dynamic tooltips displaying detailed event logs for pinpointed data points.
+### 3. Magnitude & Depth Analysis
+![Magnitude & Depth](magnitude_depth.png.png)
 
-### 4. **Risk Assessment & Alert Systems**
-* **Custom Risk Score Index:** A composite metric incorporating Magnitude, Depth, and Impact factors:
-  $$\text{RiskScore} = f(\text{Magnitude}, \text{Depth})$$
-* **Gauges & Alerts:** Visual indicators and limit alarms for high-risk zones requiring urgent attention.
-* **Tsunami Risk Ratio:** Percentage analysis of earthquakes linked to potential tsunami alerts.
+### 4. Regional Analysis
+![Regional Analysis](regional_analysis.png.png)
+
+### 5. Risk Assessment & Alerts
+![Risk & Alerts](risk_alerts.png.png)
 
 ---
 
@@ -43,19 +38,8 @@ This project provides a comprehensive analysis of global earthquake patterns, se
 
 ---
 
-## 📂 Repository Structure
+## 🚀 How to View the Project
 
-```text
-├── Data/
-│   └── earthquake_data_raw.csv        # USGS seismic dataset
-├── DAX/
-│   └── Measures.dax                   # Key DAX formulas used in the report
-├── Report/
-│   └── Analiza_Termetesh.pbix         # Power BI project file
-├── Screenshots/
-│   ├── Global_Overview.png
-│   ├── Time_Analysis.png
-│   ├── Magnitude_Depth.png
-│   ├── Regional_Analysis.png
-│   └── Risk_Alerts.png
-└── README.md                          # Project documentation
+1. Clone or download this repository:
+   ```bash
+   git clone [https://github.com/Ralfi2208/global-earthquake-risk-analytics.git](https://github.com/Ralfi2208/global-earthquake-risk-analytics.git)
